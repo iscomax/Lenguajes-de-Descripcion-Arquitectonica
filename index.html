@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Lenguajes ADL</title>
 </head>
 <body>
   <div class="container">
@@ -24,13 +24,13 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link " href="#">Inicio</a>
+                    <a class="nav-link " href="index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#"></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Fuentes</a>
+                    <a class="nav-link" href="fuentes.html">Fuentes</a>
                 </li>
                 </ul>
             </div>
@@ -42,7 +42,7 @@
         <div class="jumbotron text-center">
             <h1>Lenguajes de Descripción Arquitectónica</h1>
             <div>
-                <img class="img-fluid" src="img/adl.jpeg" alt="">
+                <img class="img-fluid" src="img/adl.jpeg"  alt="">
             </div>
     
         </div>
@@ -109,11 +109,20 @@
             </div>
         </div>
         <div class="col-md-3 ">
-            <img class="img-fluid" src="img/caracteristicas.jpg" style="margin-top: 20px;" alt="">
+            <img class="img-fluid" src="img/caracteristicas.jpg" style="margin-top: 30px;" alt="">
         </div>
     </div>
     <!-------------------------------------------------------> 
-
+    <div class="parallax">
+        <div class="container tipos">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-center">Tipos de Lenguajes</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------------------->
     <div class="row">
        <div class="col-md-12 ">
         <div class="card  Acme ">
@@ -247,20 +256,95 @@
     <!-------------fin de tercia de tarjetas -----------------------------> 
     <div class="row">
         <div class="col md-12">
-            
-            <div class="panel panel-primary">
-
-                <div class="panel-heading">Título del panel</div>
-                <div class="panel-body">
-                  <p>...</p>
+            <div class="card border-primary mb-3 comparativa" >
+                <div class="card-header text-primary text-center">
+                    Tabla comparativa 
                 </div>
-              
-                <table class="table">
-                  ...
-                </table>
+                <div class="card-body text-primary">
+
+                    <div class="table-responsive  ">
+                        <table class="table table-bordered ">
+                            <thead>
+                                <tr>
+                                   <th>Nombre</th>
+                                   <th>Semejanzas</th>
+                                   <th>Diferencias</th>
+                                   <th>Casos de aplicación</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                       <h6>Acme</h6> 
+                                    </td>
+                                    <td  ROWSPAN=5 style="width: 200px;">
+                                        Todos los ADL´s soportan modelado de Componentes.  <br> <br>
+                                        Todos los ADL’s suportan al menos un tipo de interconexión sintáctica. <br><br>
+                                        Permiten el análisis de las arquitecturas bajo diferentes criterios de calidad: 
+                                        Completitud, Consistencia, Ambigüedad, desempeño.
+
+                                    </td>
+                                    <td style="width: 200px;">
+                                        Lenguaje de intercambio de ADLs
+                                    </td>
+                                    <td  class="text-justify ">
+                                        Estilo característico de arquitecturas de tipo UNIX, usado en compiladores, flujos de datos, 
+                                        tratamiento de XML con procesadores XSLT, procesamiento de señales y programación funcional, 
+                                        así como en los mecanismos de procesamiento de consultas de algunos servidores de bases de datos
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><h6>Jacal </h6></td>
+                                   
+                                    <td>
+                                        ADL - Notación de alto nivel para descripción y prototipado
+                                    </td>
+                                    <td  class="text-justify ">
+                                        Animación de arquitecturas, que no es más que poder visualizar una simulación de cómo se comportaría 
+                                        en la práctica un sistema basado en la arquitectura que se ha representado ya que la notación principal de Jacal es gráfica.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><h6>Rapide</h6> </td>
+                                   
+                                    <td>
+                                        ADL & simulación
+                                    </td>
+                                    <td  class="text-justify ">
+                                        Debido a esta característica pueden ser utilizado en sistemas reconfigurables, como por ejemplo aplicaciones Web. 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><h6>Darwin</h6> </td>
+                                    
+                                    <td>
+                                        ADL con énfasis en
+                                        dinámica
+                                        
+                                    </td>
+                                    <td>
+                                        Darwin está orientado más que nada al diseño de arquitecturas dinámicas y cambiantes
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><h6>UniCon</h6> </td>
+                                   
+                                    <td>
+                                        ADL de propósito general, énfasis en conectores y estilos
+                                    </td>
+                                    <td>
+                                        Manejo de métodos de análisis de tiempo real a través de RMA
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
               </div>
         </div>
     </div>
+
+    
 
   </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

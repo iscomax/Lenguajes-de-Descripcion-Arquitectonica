@@ -22,7 +22,7 @@ body{
 
 .caracteristicas{
     background-color: #28a745;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .caracteristicas:hover{
     background-color: white;
@@ -35,14 +35,44 @@ body{
 
 .Acme{
     background-color:#ffc107;;
-    margin-top: 20px;
+    margin-top: 30px;
 
 }
 .Defi{
     background-color: #FF5252;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .Import{
     background-color:#6c757d;
-    margin-top: 20px;
+    margin-top: 30px;
 }
+.comparativa{
+    margin-top: 30px;
+    background-color: #03A9F4;
+}
+
+.fuentes{
+    background-color: #FF5252;
+    margin-top: 100px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../img/compu.jpg");
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .tipos{
+      background-color: rgba(0,0,0,.62);
+      padding-top: 200px;
+    padding-bottom: 245px;
+    color: #f8f9fa;
+  }
