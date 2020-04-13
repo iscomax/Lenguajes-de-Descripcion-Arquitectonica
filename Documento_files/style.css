@@ -1,0 +1,10 @@
+body{
+   background-image: url("../img/fondo1.png");
+}
+
+.logo{
+    width: 25%;
+}
+.jumbotron{
+    margin-top: 250px;
+}
